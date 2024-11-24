@@ -155,7 +155,7 @@ const eye = [0, 0, zoom];
 const at = [0, 0, 0];
 const up = [0, 1, 0];
 
-// render f
+// render function
 function render() {
     gl.clearColor(0.0, 0.0, 0.0, 1.0); // Black background
     gl.clear(gl.COLOR_BUFFER_BIT);
